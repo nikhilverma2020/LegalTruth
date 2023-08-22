@@ -1,0 +1,237 @@
+@media only screen and (max-width: 1200px){
+    ul#nav_filter {
+        margin-right: -16px;
+    }
+    .lv_sign-in {
+        padding: 6px 10px;
+        padding-left: 10px;
+    }
+    .sign_in {
+        padding-right: 8px;
+    }
+    .lv_search_bar {
+        padding: 5px 5px;
+        padding-left: 15px;
+    }
+    #nav_filter li a {
+        font-size: 14px;
+    }
+    /*----- ABOUT_US 2 PAGE --------*/
+    .heading_low h2 {
+        font-size: 36px;
+    }
+    .paragraph_law p {
+        font-size: 14px;
+    }
+    .about_menu {
+        padding: 20px 0;
+    }
+    .about_us_page2 .about_us_text {
+        padding: 10px 0 0 0;
+    }
+}
+/*--- 991 ---*/
+@media only screen and (max-width: 992px){
+    /*----- ABOUT_US 2 PAGE --------*/
+    .heading_low{
+        text-align: center;
+    }
+    .nav-tabs {
+        margin-left: 0%;
+        width: 100%;
+    }
+    .nav-tabs .nav-item {
+        margin-bottom: 0px;
+        width: 346px;
+        margin: 0 auto;
+        display: block;
+    }
+    .choose_us_img{
+        padding: 35px 0 0 0;
+    }
+    div#myTabContent{
+        padding: 35px 0 0 0;
+    }
+    /*------ SINGLE ATTORNEY SECTION -----*/
+    .contact_attorney li {
+        padding-left: 32px;
+        font-size: 14px;
+    }
+    .contact_attorney li::before {
+        font-size: 16px;
+    }
+    .contact_attorney li+li::before {
+        font-size: 16px;
+    }
+    .contact_attorney li+li+li:before {
+        font-size: 16px;
+    }
+    .footer_content li.ex_mar {
+        margin-top: 0px;
+    }
+    /* ---- Comming-Soon ---- */
+    .comming_text h1 {
+        font-size: 100px;
+    }
+    /* ---- Maiantenance-Page ---- */
+    .bg_maintenance_text {
+        top: 300px;
+    }
+}
+/*--- 767 ---*/
+@media only screen and (max-width: 768px){
+    /* -=-=-=- about-us 2 -=-=-=-=- */
+    .faq_box{
+        padding-right: 0px;
+    }
+    .faq:before {
+        display: none;
+    }
+    .faq_box h2{
+        color: #000;
+    }
+    .faq_box .panel-default>.panel-heading a{
+        color: #000!important;
+    }
+    .faq_box .panel-body{
+        color: #000;
+    }
+    .consultation_box {
+        padding: 0 0 100px 0;
+    }
+    .consultation_box{
+        text-align: center;
+        padding-left: 0px;
+    }
+    .member-content h4 {
+        padding-top: 15px;
+    }
+    /* 404- page css */
+    .img_404 p {
+        width: 465px;
+        text-align: center;
+    }
+    .search-container {
+        width: 400px;
+    }
+    /* Attorney-single 1-page */
+    .member_img img{
+        width: 60%;
+    }
+    /* ---- Comming-Soon ---- */
+    .comming_text h1 {
+        font-size: 70px;
+    }
+    /* ---- Maintenance-Page ---- */
+    .bg_maintenance_text h2 {
+        font-size: 50px;
+    }
+    .bg_maintenance_text p {
+        padding: 10px 0 0 0;
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .img_404 h4 {
+        font-size: 30px;
+    }
+    .img_404 p {
+        width: 315px;
+        font-size: 14px;
+    }
+    /* ---- Comming-Soon ---- */
+    .input-group {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .comming_text h1 {
+        font-size: 55px;
+    }
+    .comming_text h2 {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 432px){
+    .login_form span i {
+        right: 18%;
+    }
+    .login_form .unlock i {
+        right: 18%;
+    }
+    .search-container {
+        width: 265px;
+    }
+    /* ---- Maintenance-Page ---- */
+    .bg_maintenance_text h2 {
+        font-size: 40px;
+    }
+    .bg_maintenance_text p {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 411px){
+    .contact_attorney ul {
+        column-count: 1;
+    }
+    .login_form p::after {
+        width: 105px;
+    }
+    .login_form p::before {
+        width: 105px;
+    }
+}
+/*--- 366 ---*/
+@media only screen and (max-width: 366px){
+    .nav-tabs .nav-item {
+        margin-bottom: 0px;
+        width: 220px;
+    }
+    .attorney_award img {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .login_form .fb_btn {
+        font-size: 14px;
+    }
+    .login_form .google_btn {
+        font-size: 14px;
+    }
+    /* ---- Comming-Soon ---- */
+    .comming_text h1 {
+        font-size: 40px;
+    }
+    .comming_text h2 {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 350px){
+    .login_form span i {
+        top: 40%;
+    }
+    .login_form .unlock i {
+        top: 53%;
+    }
+    .login_form p::after {
+        width: 80px;
+    }
+    .login_form p::before {
+        width: 80px;
+    }
+    .img_404 p {
+        width: 260px;
+    }
+    /* ---- Maintenance-Page ----- */
+    .bg_maintenance_text h2 {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 321px){
+    .login_form .unlock i {
+        top: 51%;
+    }
+    .login_form span i {
+        top: 39%;
+    }
+}
